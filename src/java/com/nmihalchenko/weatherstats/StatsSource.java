@@ -1,7 +1,8 @@
 package com.nmihalchenko.weatherstats;
 
-import java.util.Map;
+import java.util.List;
 
 public interface StatsSource {
-    Map<String, String> getStats(String cityName);
+    List<List<String>> getStats(String cityName);
+    void close();
 }
