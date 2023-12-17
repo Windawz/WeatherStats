@@ -8,7 +8,7 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="dd12c" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="dd12c" class="javax.swing.JTextField" binding="cityNameTextField">
         <constraints>
           <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -24,7 +24,7 @@
           <text value="City name:"/>
         </properties>
       </component>
-      <component id="6fcf" class="javax.swing.JTable" binding="table1" default-binding="true">
+      <component id="6fcf" class="javax.swing.JTable" binding="statsTable">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
